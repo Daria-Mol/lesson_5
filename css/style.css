@@ -1,0 +1,181 @@
+ @import "null.css"; 
+ /* =============================================================================================================================  */
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+ body{
+	 font-family: Lato, sans-serif;
+ }
+
+ 	.wrapper{
+	 min-height: 100%;
+	 overflow: hidden;
+	 padding: 0 5px;
+ 	}
+	.menu {
+		min-height: 35px;
+		padding: 5px 0;
+	}
+	.list {
+		text-align: center;
+	}
+	.main {
+		margin: 0px auto;
+		max-width: 810px;
+	}
+	.title {
+		font-size: 46px;
+		line-height: 130%;
+		font-weight: 900;
+		color: #1e212c;
+		margin: 0px 0px 92px 0px;	
+	}
+	img{
+		margin: 0px 0px 60px 0px;	
+	}
+	.content>.font700{
+		margin: 0px 0px 25px 0px;
+	}
+	.content>.font700+.font400{
+		margin: 0px 0px 30px 0px;
+	}
+
+	/* Жаль, что мы еще не дошли до псевдоэлементов, 
+	придумала только так */
+	/* .content>.font700+.font400+.font400{
+		margin: 0px 0px 48px 0px;
+	} */
+
+	.note .font700{
+		margin: 48px 0px;
+	}
+
+	.font700 {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.5;
+		color: #1e212c;
+	}
+	.font400 {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.6;
+		color: #424451;
+		margin: 0px 0px 24px 0px;
+	}
+	.note {
+		padding: 0px 0px 0px 58px;
+	}
+	.list2 li{
+		margin: 0px 0px 4px 0px;
+		padding: 0px 0px 0px 32px;
+	}
+	.footer {
+		text-align: center;
+	}
+
+	/* ============================================================= */
+	.wrapper2 {
+		min-height: 100%;
+		overflow: hidden;
+	}
+	.container{
+		max-width: 1200px;
+		margin: 0px auto;
+		font-family: 'Neucha', cursive;
+		padding: 0 10px;
+	}
+	.header2 {
+		text-align: center;
+	}
+	h3{
+		font-size: 30px;
+		text-decoration: underline;
+		text-shadow: 5px 5px 10px rgb(100, 97, 97);
+	}
+	.main2 {
+	}
+	.title2 {
+		font-size: 50px;
+		text-align: center;
+		margin: 0px 0px 30px 0px;
+		font-weight: 700;
+	}
+	.subtitle {
+		text-align: center;
+		font-size: 25px;
+		color: #262626;
+		margin: 0px 0px 40px 0px;
+	}
+	.content {
+	}
+	.content-1 {
+		max-width: 600px;
+		min-width: 400px;
+		margin: 0px 0px 20px auto;
+	}
+	.content-2 {
+		max-width: 50%;
+		margin: 0px auto 20px 0px;
+
+	}
+	.content-3 {
+		width: 300px;
+		margin: 0px auto 20px;
+	}
+	.content-3 .block-img img{
+		padding: 20px 20px;
+	}
+	.content-4 {
+		width: 100%;
+
+	}
+	.content-4-text{
+		height: 100px;
+		overflow: scroll;
+	}
+	.content-4 p{
+		width: 1200px;
+	}
+	.content-5 {
+		min-width: 500px;
+	}
+	.block-img img{
+		margin: 0px 0px 0px 0px;
+	}
+	.block-img{
+		margin: 0px 10px 0px 0px;
+	}
+	.content-6 .block-img{
+		width: 500px;
+		overflow: auto;
+	}
+	.block-img-2{
+		width: 1200px;
+	}
+	.content-6 .block-img img{
+		width: 500px;
+	}
+	.content-5 h3+p{
+		margin: 0px 0px -30px 0px;
+		
+	}
+	.runes-p {
+		margin: 0px 0px 5px 0px;
+	}
+	.note2 {
+		padding: 0px 0px 0px 40px;
+	}
+	h4{
+		text-align: center;
+		font-size: 25px;
+	}
+	.expl-inl-blck span{
+		display: block;
+		text-align: center;
+		padding: 0px 0px 5px 0px;
+	}
+	.expl-over-visibl h4+p{
+		height: 15px;
+	}
+
+
